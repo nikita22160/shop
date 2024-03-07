@@ -1,4 +1,5 @@
 class Category:
+    """Класс для представления категории."""
     all_quantity_category = 0
     all_quantity_unique_product = 0
     name: str
@@ -15,6 +16,7 @@ class Category:
 
 
 class Product:
+    """Класс для продуктов."""
     name: str
     description: str
     price: float
